@@ -1,0 +1,8 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+sources:
+- image: simple-app
+  path: .
+destinations:
+- image: simple-app
+  newImage: 100mik/simple-app
